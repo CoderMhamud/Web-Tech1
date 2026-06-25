@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "#">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="frame">First Name</label>
+            <input type="text" name="frame" id="fname"  placeholder="Full Name" required>
+            <br><br>
+            <label for="memberid">Merbership Id</label>
+            <input type="text" name="memberid" id="memberid" placeholder="Id"required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="@gmail.com" required>
+            <br><br>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dpb" id="dob" required>
+            <br><br>
+            Gender:
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="female">Female</label>
+
+            
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Mermbership Information</legend>
+            <label for="mermbertype">Mermbership type</label>
+            <select name="mermbertype" id="mermbertype">
+           
+            <option value="Student">Student</option>
+            <option value="Faculty">Faculty</option>
+            <option value="Researcher">Researcher</option>
+            <option value="General Member">General Member</option>
+
+            </select>
+            <br><br>
+            <br><br>
+            <label for="prefered_library"> Prefered library Section></label>
+            <select name="prefered_library" id="prefered_library">
+                <option value="">Select a section</option>
+                <option value="S&t">Science & Techonology</option>
+                <option value="literature">literature</option>
+                <option value="Business Studies">Business Studies</option>
+                <option value="history">History</option>
+                <option value="A&C">Arts & Culture</option>
+            
+            </select>
+            
+        </fieldset>
+        <fieldset>
+            <fieldset>
+            <legend>Reading Preferrences</legend>
+
+            <label for="fbook">Select Favorite Book Catagories: </label><br><br>
+            <input type="checkbox" name="fbook" id="fiction" value="fiction">
+            <label for="fiction">Fiction</label>
+             <input type="checkbox" name="fbook" id="nonfiction" value="nonfiction">
+            <label for="nonfiction">Non-Fiction</label>
+             <input type="checkbox" name="fbook" id="science" value="science">
+            <label for="science">Science</label> 
+            <input type="checkbox" name="fbook" id="technology" value="technology">
+            <label for="technology">Technology</label> 
+            <input type="checkbox" name="fbook" id="biography" value="biography">
+            <label for="biography">Biography</label> 
+            <input type="checkbox" name="fbook" id="history" value="history">
+            <label for="history">History</label>
+
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legand>Librury Service</legand>
+            <label for="service">Select a service you want to use</label>
+            <br>
+            <input type="checkbox" name="Service" id="bookborrow" value="bookborrow">
+            <label for="access">Book Borrowing</label>
+                <input type="checkbox" name="Service" id="Digital library Access" value="Digital library Access">
+            <label for="access">Digital library Access</label>
+                <input type="checkbox" name="Service" id="Reading room" value="Reading room">
+            <label for="access">Reading room</label>
+                <input type="checkbox" name="Service" id="Research Assistance" value="Research Assistance">
+            <label for="access">Research Assistance</label>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <label for="currentaddress">Current Address: </label>
+            <br>
+            <textarea name="currentaddress" id="currentaddress"></textarea>
+            <br>
+            <label for="contact">Emergency Contact Number: </label>
+            <br>
+            <input type="tel" name="contact" id="contact">
+            <br>
+            <label for="reason">Reason for joining the library</label>
+            <br>
+            <textarea name="reason" id="reason"></textarea>
+            <br>
+            <label for="suggestion">Suggestion for library improvement</label>
+            <br>
+            <textarea name="suggestion" id="suggestion"></textarea>
+
+        </fieldset>
+        <br><br>
+        <button>select</button>
+        <button>Reset Button</button>
+
+
+    </form>
+
+    
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d61ace1a7a5c47e3831d343de077b36a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
